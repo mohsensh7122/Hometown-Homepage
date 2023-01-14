@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background-image: url("images/times-square.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.main-header {
+    width: 300px;
+    margin-top: 0;
+    background-color: #1D3557;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 32px;
+}
+
+.sub-header {
+    padding: 10px 15px;
+    background-color: #457B9D;
+    font-size: 18.72px;
+    border-radius: 10px;
+}
+.main-header, .sub-header {
+    color: #fff;
+}
+
+main {
+    text-align: center;
+    background-color: #F1FAEE;
+    padding: 39px 0;
+}
+
+h2 {
+    margin: 0 auto 54px;
+    width: 500px;
+}
+
+.activity-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+}
+.article-wrap {
+    display: flex;
+    justify-content: space-around;
+}
