@@ -12,13 +12,17 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 343px;
     text-align: center;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+main {
+    height: 378px;
 }
 
 
@@ -32,9 +36,10 @@ header {
 }
 
 .sub-header {
+    margin-top: 0;
     padding: 10px 15px;
     background-color: #457B9D;
-    font-size: 18.72px;
+    font-size: 20.72px;
     border-radius: 10px;
 }
 .main-header, .sub-header {
@@ -67,4 +72,32 @@ article {
 .article-wrap {
     display: flex;
     justify-content: space-around;
+}
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.guide-box {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px 40px;
+    background-color: #A8DADC;
+    align-items: center;
+    border-radius: 20px;
+    border-bottom: 6px solid #1D3557;
+    color: #1D3557;
+    font-family: 'Arial';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.guide-description {
+    margin-left: 10px;
 }
